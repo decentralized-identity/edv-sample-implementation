@@ -663,7 +663,6 @@ describe('EdvClient', () => {
       has: 'content.indexedKey',
     });
     expect(count).toBeDefined();
-
     expect(count).toBe(2);
   });
 
@@ -683,31 +682,28 @@ describe('EdvClient', () => {
     expect(docs[0].content).toEqual(expected.content);
   });
 
-  it(
-    'should find a document that equals the value of a' + ' URL attribute',
-    async () => {
-      const client = await mock.createEdv();
-      client.ensureIndex({ attribute: 'content.https://schema\\.org/' });
-      const testId = await EdvClient.generateId();
-      const expected = {
-        id: testId,
-        content: {
-          'https://schema.org/': 'value1',
-        },
-      };
-      await client.insert({ doc: expected, invocationSigner, keyResolver });
-      const { documents: docs } = await client.find({
-        invocationSigner,
-        equals: {
-          'content.https://schema\\.org/': 'value1',
-        },
-      });
-      expect(docs).toBeInstanceOf(Array);
-      expect(docs.length).toBe(1);
-      expect(docs[0]).toBeInstanceOf(Object);
-      expect(docs[0].content).toEqual(expected.content);
-    }
-  );
+  it('should find a document that equals the value of a  URL attribute', async () => {
+    const client = await mock.createEdv();
+    client.ensureIndex({ attribute: 'content.https://schema\\.org/' });
+    const testId = await EdvClient.generateId();
+    const expected = {
+      id: testId,
+      content: {
+        'https://schema.org/': 'value1',
+      },
+    };
+    await client.insert({ doc: expected, invocationSigner, keyResolver });
+    const { documents: docs } = await client.find({
+      invocationSigner,
+      equals: {
+        'content.https://schema\\.org/': 'value1',
+      },
+    });
+    expect(docs).toBeInstanceOf(Array);
+    expect(docs.length).toBe(1);
+    expect(docs[0]).toBeInstanceOf(Object);
+    expect(docs[0].content).toEqual(expected.content);
+  });
 
   it('should find a document with a deep index on an array', async () => {
     const client = await mock.createEdv();
