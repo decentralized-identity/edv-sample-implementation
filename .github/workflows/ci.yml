@@ -1,9 +1,10 @@
 name: CI
-on: [push]
+on:
+  workflow_dispatch:
+  push:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
     steps:
       - name: Begin CI
         uses: actions/checkout@v2
