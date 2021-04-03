@@ -8,7 +8,8 @@ export const createEdv = async (
   const { server, headers, method, path, body } = request;
 
   if (!headers['capability-invocation']) {
-    console.warn('no authorization requried to create a vault?');
+    // TODO: warn when verbose
+    // console.warn('no authorization requried to create a vault?');
   } else {
     const verified = await server.verifyCapabilityInvocation(
       server,

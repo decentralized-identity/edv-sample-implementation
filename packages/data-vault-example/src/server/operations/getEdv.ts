@@ -6,7 +6,8 @@ export const getEdv = async (
   const { server, headers, method, path, params } = request;
 
   if (!headers['capability-invocation']) {
-    console.warn('no authorization required to get a vault config?');
+    // TODO: warn when verbose
+    // console.warn('no authorization required to get a vault config?');
   } else {
     const verified = await server.verifyCapabilityInvocation(
       server,

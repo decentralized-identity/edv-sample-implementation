@@ -61,7 +61,8 @@ export const createDocument = async (
   try {
     await server.store.storeDocument(edvId, doc, true);
   } catch (e) {
-    console.error(e);
+    // TODO: warn when verbose
+    // console.error(e);
     return {
       status: 409,
       headers: {},

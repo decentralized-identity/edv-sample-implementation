@@ -6,9 +6,10 @@ export const getEdvs = async (
   const { server, headers, method, path, query } = request;
 
   if (!headers['capability-invocation']) {
-    console.warn(
-      'no authorization required to get a vault config by reference?'
-    );
+    // TODO: enable with verbose logging
+    // console.warn(
+    //   'no authorization required to get a vault config by reference?'
+    // );
   } else {
     const verified = await server.verifyCapabilityInvocation(
       server,

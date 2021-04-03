@@ -329,10 +329,10 @@ it('can create capability', async () => {
 
 // this is for the sake of exploring the data model
 it('can save database to filesystem', async () => {
-  const rootDirectory = path.join(__dirname, '../../../..');
+  const rootDirectory = path.join(__dirname, '../../../../docs');
   await fastifyServer.storeToFs(
     fastifyServer.store,
     rootDirectory,
-    'https://identity.foundation/confidential-storage/'
+    'https://identity.foundation/edv-sample-implementation/'
   );
 });
