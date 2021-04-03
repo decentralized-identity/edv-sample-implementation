@@ -1,0 +1,50 @@
+{
+  "id": "https://identity.foundation/edv-sample-implementation//edvs/z19kPHNp8T6yzRJVKFQtb9jde/documents/z1A997UY2sKtoPoGjmaz6MyKQ",
+  "sequence": 0,
+  "indexed": [
+    {
+      "hmac": {
+        "id": "uEqwxeY_UyPYkKFB8PVihJdLlrAQKeAh50Z3ay2QO1wzC",
+        "type": "Sha256HmacKey2019"
+      },
+      "sequence": 0,
+      "attributes": []
+    }
+  ],
+  "jwe": {
+    "protected": "eyJlbmMiOiJYQzIwUCJ9",
+    "recipients": [
+      {
+        "header": {
+          "kid": "did:key:z6MktCi29iAwUiVDaewSStHVW5qhBxZTGXBFXM9YD9RisbFn#z6LSn4Wq5XE4FgJ8jyKss1kL5Gqwsn7gVgsKpNEPGHMeCxQq",
+          "alg": "ECDH-ES+A256KW",
+          "epk": {
+            "kty": "OKP",
+            "crv": "X25519",
+            "x": "TFx7aQM1lOMilN4E6Y-Ab_yptimFEC9I__AjBqTB3gU"
+          },
+          "apu": "TFx7aQM1lOMilN4E6Y-Ab_yptimFEC9I__AjBqTB3gU",
+          "apv": "ZGlkOmtleTp6Nk1rdENpMjlpQXdVaVZEYWV3U1N0SFZXNXFoQnhaVEdYQkZYTTlZRDlSaXNiRm4jejZMU240V3E1WEU0RmdKOGp5S3NzMWtMNUdxd3NuN2dWZ3NLcE5FUEdITWVDeFFx"
+        },
+        "encrypted_key": "q6MVd5sGT7D_yFUisO2GCYNeTpviC4xWZf0NPj5wIEZqg2b5Kvn3Tg"
+      },
+      {
+        "header": {
+          "kid": "did:key:z6MksoXXQWguv2ELw8wWawCPJmwGiAvjhg5tnRAZ6PFHkrDg#z6LSiv8EKudugoQjaEL7N3m9TLydCFnmu562Rcq1CY4UGpdx",
+          "alg": "ECDH-ES+A256KW",
+          "epk": {
+            "kty": "OKP",
+            "crv": "X25519",
+            "x": "TFx7aQM1lOMilN4E6Y-Ab_yptimFEC9I__AjBqTB3gU"
+          },
+          "apu": "TFx7aQM1lOMilN4E6Y-Ab_yptimFEC9I__AjBqTB3gU",
+          "apv": "ZGlkOmtleTp6Nk1rc29YWFFXZ3V2MkVMdzh3V2F3Q1BKbXdHaUF2amhnNXRuUkFaNlBGSGtyRGcjejZMU2l2OEVLdWR1Z29RamFFTDdOM205VEx5ZENGbm11NTYyUmNxMUNZNFVHcGR4"
+        },
+        "encrypted_key": "OZisxuoDejhO6MSWfgM_MvNHWQHhfaeh7pQ38yM8RICkZXNZmrE7UA"
+      }
+    ],
+    "iv": "YACuFxlNIDHFkbi2oCdMz0rDeo7bm9xv",
+    "ciphertext": "9TO7P7wF9-J4a-xjTrb2dSjjkt7OGA5gXE-hOK16ep6pjg4",
+    "tag": "KbtrivxwZ_W_CBD4eObuaA"
+  }
+}

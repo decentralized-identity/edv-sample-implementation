@@ -1,0 +1,28 @@
+{
+  "id": "https://identity.foundation/edv-sample-implementation//edvs/z19kPHNp8T6yzRJVKFQtb9jde/documents/z19uY4QSFT5wyMnNNREMfVDce/chunks/0",
+  "sequence": 0,
+  "index": 0,
+  "offset": 50,
+  "jwe": {
+    "protected": "eyJlbmMiOiJYQzIwUCJ9",
+    "recipients": [
+      {
+        "header": {
+          "kid": "did:key:z6MktCi29iAwUiVDaewSStHVW5qhBxZTGXBFXM9YD9RisbFn#z6LSn4Wq5XE4FgJ8jyKss1kL5Gqwsn7gVgsKpNEPGHMeCxQq",
+          "alg": "ECDH-ES+A256KW",
+          "epk": {
+            "kty": "OKP",
+            "crv": "X25519",
+            "x": "PnWRFvkoQ6q9UDRYxndJXfEpukUx12pFOEzzhlk741k"
+          },
+          "apu": "PnWRFvkoQ6q9UDRYxndJXfEpukUx12pFOEzzhlk741k",
+          "apv": "ZGlkOmtleTp6Nk1rdENpMjlpQXdVaVZEYWV3U1N0SFZXNXFoQnhaVEdYQkZYTTlZRDlSaXNiRm4jejZMU240V3E1WEU0RmdKOGp5S3NzMWtMNUdxd3NuN2dWZ3NLcE5FUEdITWVDeFFx"
+        },
+        "encrypted_key": "_COTPJAkSlmDNyNQQJ7gTO341y0Z1AK2ENl3G7oJOKwqoDHTarP-wA"
+      }
+    ],
+    "iv": "UxclXjnhvjwDlx8ON8Ff2K4-qPofbAOP",
+    "ciphertext": "SDhAdjPk_S4MdDdbMr1gTBybP8-Ud8Eb35np0jRgr82aTOGwkz5JXK0yYANXE3BQByQ",
+    "tag": "i0vhfSk7qUXro1RAhUIIrw"
+  }
+}

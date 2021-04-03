@@ -1,0 +1,18 @@
+{
+  "@context": "https://w3id.org/security/v2",
+  "id": "https://identity.foundation/edv-sample-implementation//edvs/z19kPHNp8T6yzRJVKFQtb9jde/documents/z1A997UY2sKtoPoGjmaz6MyKQ/zcaps/z19pNPqDUJ157LKsVng6okLiw",
+  "invocationTarget": "http://localhost:9876/edvs/z19kPHNp8T6yzRJVKFQtb9jde/documents/z1A997UY2sKtoPoGjmaz6MyKQ",
+  "invoker": "did:key:z6MksoXXQWguv2ELw8wWawCPJmwGiAvjhg5tnRAZ6PFHkrDg#z6MksoXXQWguv2ELw8wWawCPJmwGiAvjhg5tnRAZ6PFHkrDg",
+  "allowedAction": "read",
+  "parentCapability": "http://localhost:9876/edvs/z19kPHNp8T6yzRJVKFQtb9jde/zcaps/documents/z1A997UY2sKtoPoGjmaz6MyKQ",
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2021-04-03T14:34:51Z",
+    "capabilityChain": [
+      "http://localhost:9876/edvs/z19kPHNp8T6yzRJVKFQtb9jde/zcaps/documents/z1A997UY2sKtoPoGjmaz6MyKQ"
+    ],
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZH1miRYBen7rVjNsAAcu6iU5I7pJ7Ln5hFDojQpTdx0nCpTDfOmfL_aK4wk7jb0M6ggyUiack38pax99CiVeCQ",
+    "proofPurpose": "capabilityDelegation",
+    "verificationMethod": "did:key:z6MktCi29iAwUiVDaewSStHVW5qhBxZTGXBFXM9YD9RisbFn#z6MktCi29iAwUiVDaewSStHVW5qhBxZTGXBFXM9YD9RisbFn"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "https://identity.foundation/edv-sample-implementation//edvs/z19kPHNp8T6yzRJVKFQtb9jde/documents/z1A5k5Q3QRKfgXoL29YXTSBRf",
+  "sequence": 0,
+  "indexed": [
+    {
+      "hmac": {
+        "id": "uEqwxeY_UyPYkKFB8PVihJdLlrAQKeAh50Z3ay2QO1wzC",
+        "type": "Sha256HmacKey2019"
+      },
+      "sequence": 0,
+      "attributes": [
+        {
+          "name": "t2O3VgcSqWzpI6PDQybxiAmXUrepFB48PCoyyUafrZk",
+          "value": "znoqUIBRw9G_1ySJc8HGpopmDKdcWaUAOH2M3qni494",
+          "unique": false
+        }
+      ]
+    }
+  ],
+  "jwe": {
+    "protected": "eyJlbmMiOiJYQzIwUCJ9",
+    "recipients": [
+      {
+        "header": {
+          "kid": "did:key:z6MktCi29iAwUiVDaewSStHVW5qhBxZTGXBFXM9YD9RisbFn#z6LSn4Wq5XE4FgJ8jyKss1kL5Gqwsn7gVgsKpNEPGHMeCxQq",
+          "alg": "ECDH-ES+A256KW",
+          "epk": {
+            "kty": "OKP",
+            "crv": "X25519",
+            "x": "ArtWa9v_VasO-7SG-3t2evgi1_u1i4Qp5SbqyrS22Uo"
+          },
+          "apu": "ArtWa9v_VasO-7SG-3t2evgi1_u1i4Qp5SbqyrS22Uo",
+          "apv": "ZGlkOmtleTp6Nk1rdENpMjlpQXdVaVZEYWV3U1N0SFZXNXFoQnhaVEdYQkZYTTlZRDlSaXNiRm4jejZMU240V3E1WEU0RmdKOGp5S3NzMWtMNUdxd3NuN2dWZ3NLcE5FUEdITWVDeFFx"
+        },
+        "encrypted_key": "uM5mjSU9NlVLPKSosICnA4B3RfhM5wTZBP7tx7BUsY4qSFErNXLJYw"
+      }
+    ],
+    "iv": "B2GuRwc6yMl8MbRnsVME8HVzHeoXRuu9",
+    "ciphertext": "6Qg8pjlbF5d_F7WKiFDf-XUCHzgoiljWl18ucbYRVx4ete6qEZJqR3ajgFD8XEtMzlc0BW_VaCcpfA",
+    "tag": "rWikZbsuXuNgp1_WPgi7hg"
+  }
+}

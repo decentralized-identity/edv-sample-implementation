@@ -1,0 +1,36 @@
+{
+  "id": "https://identity.foundation/edv-sample-implementation//edvs/z19kPHNp8T6yzRJVKFQtb9jde/documents/z19ytVAPRpmxFmFvacRP9u2SH",
+  "sequence": 0,
+  "indexed": [
+    {
+      "hmac": {
+        "id": "uEqwxeY_UyPYkKFB8PVihJdLlrAQKeAh50Z3ay2QO1wzC",
+        "type": "Sha256HmacKey2019"
+      },
+      "sequence": 0,
+      "attributes": []
+    }
+  ],
+  "jwe": {
+    "protected": "eyJlbmMiOiJYQzIwUCJ9",
+    "recipients": [
+      {
+        "header": {
+          "kid": "did:key:z6MktCi29iAwUiVDaewSStHVW5qhBxZTGXBFXM9YD9RisbFn#z6LSn4Wq5XE4FgJ8jyKss1kL5Gqwsn7gVgsKpNEPGHMeCxQq",
+          "alg": "ECDH-ES+A256KW",
+          "epk": {
+            "kty": "OKP",
+            "crv": "X25519",
+            "x": "o3dRfbwmE3Qin5_6MlkeY1s0H6-XpkCwGXu7z0TY0WA"
+          },
+          "apu": "o3dRfbwmE3Qin5_6MlkeY1s0H6-XpkCwGXu7z0TY0WA",
+          "apv": "ZGlkOmtleTp6Nk1rdENpMjlpQXdVaVZEYWV3U1N0SFZXNXFoQnhaVEdYQkZYTTlZRDlSaXNiRm4jejZMU240V3E1WEU0RmdKOGp5S3NzMWtMNUdxd3NuN2dWZ3NLcE5FUEdITWVDeFFx"
+        },
+        "encrypted_key": "d__nH0Nu616ZwujNpLgsIshOP0QsmVipKz6EtbJ88Ac94buQoo7GSg"
+      }
+    ],
+    "iv": "Oux8bYrYEYveGAzI_9qLUfZG6DwEdLkq",
+    "ciphertext": "5i5STY5aDrfKI5_gcZWirgwgomYmdwQxXHVpRAFU9YVdx6lcDQ",
+    "tag": "UOt0cmiOSIzjOafVLLpLSA"
+  }
+}
