@@ -1,5 +1,9 @@
 # EDV Sample Implementation
 
+[![CI](https://github.com/decentralized-identity/edv-sample-implementation/actions/workflows/ci.yml/badge.svg)](https://github.com/decentralized-identity/edv-sample-implementation/actions/workflows/ci.yml)
+
+### [Implementation Test Report](https://identity.foundation/edv-sample-implementation/)
+
 ## Related Repos
 
 - https://github.com/decentralized-identity/edv-spec
